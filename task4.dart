@@ -18,7 +18,7 @@ void main(List<String> args) {
   print('');
   print(circle.towd);
   print('');
-  print('AreaOfCircle of the circle : ${circle.AreaOfCircle()}');
+  print('Area of the circle : ${circle.AreaOfCircle()}');
   print('');
   print('-------------------');
   Sphere sphere = Sphere(radius3: r);
