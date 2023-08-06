@@ -77,7 +77,7 @@ class Circle implements TwoDimensionalShape {
 
   @override
   AreaOfCircle() {
-    return pi * pow(2, radius!);
+    return pi * pow(radius!, 2);
   }
 }
 
@@ -96,11 +96,11 @@ class Sphere implements ThreeDimensionalShape {
 
   @override
   AreaOfSphere() {
-    return 4 * pi * pow(2, radius!);
+    return 4 * pi * pow(radius!, 2);
   }
 
   @override
   ValomeOfSphere() {
-    return (4 / 3) * pi * pow(3, radius!);
+    return (4 / 3) * pi * pow(radius!, 3);
   }
 }
